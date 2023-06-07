@@ -8,7 +8,10 @@ private:
 	string Admin_ID;
 public:
 	Administrator();
-	Administrator(string Admin_ID);
+	Administrator(string AAdmin_ID);
+	void managefaq();
+	void manageqa();
+	void manageoffers();
 	~Administrator();
 };
 
