@@ -128,16 +128,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Administrator.cpp" />
+    <ClCompile Include="CustomerAgent.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Manager.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="Offers.cpp" />
+=======
+    <ClCompile Include="Package.cpp" />
+    <ClCompile Include="Question.cpp" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Administrator.h" />
+    <ClInclude Include="CustomerAgent.h" />
     <ClInclude Include="Manager.h" />
+<<<<<<< Updated upstream
     <ClInclude Include="Member.h" />
     <ClInclude Include="Offers.h" />
+=======
+    <ClInclude Include="Package.h" />
+    <ClInclude Include="Question.h" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
