@@ -1,0 +1,7 @@
+﻿  Administrator.cpp
+  Main.cpp
+  Manager.cpp
+C:\Users\Maneth Mindiya\OneDrive\Documents\GitHub\onlineadvertising\Main\Manager.h(4,10): fatal  error C1083: Cannot open include file: 'CreativeDirector.h': No such file or directory
+  Member.cpp
+  Offers.cpp
+  Generating Code...
