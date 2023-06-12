@@ -15,11 +15,15 @@ Proposal::Proposal(string Pro_id, string RUser_id, string requrement)
 	this->RegisteredUser_id = RUser_id;
 	this->requirement = requrement;
 }
-void Proposal::validateMembership()
+void Proposal::displayProposal()
 {
 	cout << "Proposal_id:" << Proposal_id << endl;
 	cout << "RegisteredUser_id:" << RegisteredUser_id << endl;
 	cout << "requirment:" << requirement << endl;
+}
+void Proposal::validateMembership()
+{
+
 }
 void Proposal::AskRequirement()
 {

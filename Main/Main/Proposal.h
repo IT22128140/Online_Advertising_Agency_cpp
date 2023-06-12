@@ -14,6 +14,7 @@ private:
 public:
 	Proposal();
 	Proposal(string Pro_id, string RUser_id, string requirement);
+	void displayProposal();
 	void validateMembership();
 	void AskRequirement();
 	void createProposal();
