@@ -50,9 +50,14 @@ void Offer::displayoffers()
 	cout << "Offer end date: " << end_date << endl;
 }
 
-void Offer::calcoffers(payment)
+void Offer::calcoffers(payment& paymentObj, int offer_percentage)
 {
-	discount = (amount * offer_precentage) / 100;
+		float amount = paymentObj.get_amount();
+
+		float discount = (amount * offer_percentage) / 100;
+		float totalAmount = amount - discount;
+
+		cout << "Total amount after discount: " << totalAmount << endl;
 }
 
 void Offer::changeoffers()
