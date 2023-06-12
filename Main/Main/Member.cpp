@@ -21,6 +21,15 @@ Member::Member(string mMeber_ID, string mcompany, string maddress, string mdesig
 	DOB = mDOB;
 }
 
+void Member::displaymember()
+{
+	cout << "Member ID: " << Member_ID << endl;
+	cout << "Company: " << company << endl;
+	cout << "Address: " << address << endl;
+	cout << "Designation: " << designation << endl;
+	cout << "Date of Birth: " << DOB << endl;
+}
+
 void Member::requestproposal()
 {
 

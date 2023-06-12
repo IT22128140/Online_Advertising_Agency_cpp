@@ -13,6 +13,7 @@ private:
 public:
 	Member();
 	Member(string mMember_ID, string mcompany, string maddress, string mdesignation, string mDOB);
+	void displaymember();
 	void requestproposal();
 	void visitfaq();
 	void useqa();

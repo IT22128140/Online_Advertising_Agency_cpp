@@ -10,7 +10,12 @@ Administrator::Administrator()
 
 Administrator::Administrator(string AAdmin_ID)
 {
-	AAdmin_ID = AAdmin_ID;
+	Admin_ID = AAdmin_ID;
+}
+
+void Administrator::displayadmin()
+{
+	cout << "Admin ID: " << Admin_ID << endl;
 }
 
 void Administrator::managefaq()

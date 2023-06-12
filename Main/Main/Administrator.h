@@ -9,6 +9,7 @@ private:
 public:
 	Administrator();
 	Administrator(string AAdmin_ID);
+	void displayadmin();
 	void managefaq();
 	void manageqa();
 	void manageoffers();
