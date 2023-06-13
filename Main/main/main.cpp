@@ -58,5 +58,9 @@ int main()
 
 
 	// data insert to Creative_director
-	Creative_director* CDirector = new CDirector ()
+	Creative_director* CDirect = new Creative_director("CD001");
+	cout << "Detail of creative director: " << endl;
+	CDirect->display();
+	cout << endl << endl;
+
 }
