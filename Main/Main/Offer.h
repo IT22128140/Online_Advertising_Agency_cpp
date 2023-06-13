@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include "payment.h"
+
 using namespace std;
 
 class Offer
@@ -15,9 +15,9 @@ private:
 public:
 	Offer();
 	Offer(string ooffer_ID, string ooffer_name, string ooffer_condition, int opffer_precentage, string ostart_date, string oend_date);
-	void addoffers();
+	void setoffers();
 	void displayoffers();
-	void calcoffers(payment& paymentObj, int offer_precenytage);
+	int getoffers();
 	void changeoffers();
 	~Offer();
 };
