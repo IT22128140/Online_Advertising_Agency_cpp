@@ -14,11 +14,11 @@ User::User()
 
 User::User(string uName, string uContact, string uEmail, string username, string pass)
 {
-    this->Name = uName;
-    this->ContactNumber = uContact;
-    this->Email = uEmail;
-    this->Username = username;
-    this->Password = pass;
+    Name = uName;
+    ContactNumber = uContact;
+    Email = uEmail;
+    Username = username;
+    Password = pass;
 }
 
 void User::displayUser()
