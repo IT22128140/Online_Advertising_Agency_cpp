@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Administrator.cpp" />
     <ClCompile Include="CustomerAgent.cpp" />
+    <ClCompile Include="Feedback.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="Member.cpp" />
@@ -138,6 +139,7 @@
   <ItemGroup>
     <ClInclude Include="Administrator.h" />
     <ClInclude Include="CustomerAgent.h" />
+    <ClInclude Include="Feedback.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="Member.h" />
     <ClInclude Include="Offer.h" />
