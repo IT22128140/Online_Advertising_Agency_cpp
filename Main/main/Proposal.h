@@ -2,18 +2,18 @@
 #include <string>
 #include "Payment.h"
 #include "Creative_director.h"
-#include "RegisteredUser.h"
+#include "Member.h"
 using namespace std;
 
 class Proposal
 {
 private:
 	string Proposal_id;
-	string RegisteredUser_id;
+	string Member_id;
 	string requirement;
 public:
 	Proposal();
-	Proposal(string Pro_id, string RUser_id, string requirement);
+	Proposal(string Pro_id, string member_id, string requirement);
 	void displayProposal();
 	void validateMembership();
 	void AskRequirement();
