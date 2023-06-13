@@ -15,10 +15,7 @@ public:
 	User();
 	User(string Name, string Email, string ContactNumber, string Username, string Password);
 	void createAccount();
-	void addPersonalDetails();
-	void acceptTerms_Conditions();
 	void login();
 	void UpdateDetails();
 	~User();
 };
-

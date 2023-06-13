@@ -5,41 +5,29 @@ using namespace std;
 
 User::User()
 {
-    Name = "";
+    Name, "";
     ContactNumber = "";
     Email = "";
     Username = "";
     Password = "";
 }
-
-User::User(string Name, string Email, string ContactNumber, string Username, string Password)
+User::User(string Name, string ContactNumber, string Email, string Username, string Password)
 {
-    this->Name = Name;
-    this->ContactNumber = ContactNumber;
-    this->Email = Email;
-    this->Username = Username;
-    this->Password = Password;
+    Name = Name;
+    ContactNumber = ContactNumber;
+    Email = Email;
+    Username = Username;
+    Password = Password;
 }
-
 void User::createAccount()
 {
     cout << "Name: " << Name << endl;
     cout << "Contact Number: " << ContactNumber << endl;
-    cout << "Email: " << Email << endl;
+    cout << "Email: " << Email << std::endl;
     cout << "Creating an account for user: " << Name << endl;
     cout << "Username: " << Username << endl;
     cout << "Password: " << Password << endl;
 }
-
-void User::addPersonalDetails()
-{
-
-}
-void User::acceptTerms_Conditions()
-{
-
-}
-
 void User::login()
 {
     string enteredUsername, enteredPassword;
@@ -53,29 +41,23 @@ void User::login()
     if (enteredUsername == Username && enteredPassword == Password)
     {
         cout << "Login successful!" << endl;
+        return;
     }
     else
     {
         cout << "Invalid username or password. Login failed!" << endl;
         return;
-
     }
 }
-
 void User::UpdateDetails()
 {
     cout << "Updating details for user: " << Name << endl;
+
     cout << "Enter new email: ";
-    cin >> Email;
+    getline(cin, Email);
 
     cout << "Enter new contact number: ";
-    cin >> ContactNumber;
+    getline(cin, ContactNumber);
 
     cout << "Details updated successfully!" << endl;
-
-}
-
-User::~User()
-{
-
 }

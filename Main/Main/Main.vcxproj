@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{7c5bba45-d09f-45c7-8548-107a0441bee7}</ProjectGuid>
+    <ProjectGuid>{f354ed9d-18f8-47af-bfe5-8e5893040d19}</ProjectGuid>
     <RootNamespace>Main</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -129,23 +129,27 @@
   <ItemGroup>
     <ClCompile Include="Administrator.cpp" />
     <ClCompile Include="CustomerAgent.cpp" />
-    <ClCompile Include="Feedback.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Manager.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="Member.cpp" />
-    <ClCompile Include="Offer.cpp" />
-    <ClCompile Include="Proposal.cpp" />
-    <ClCompile Include="User.cpp" />
+    <ClCompile Include="Offers.cpp" />
+=======
+    <ClCompile Include="Package.cpp" />
+    <ClCompile Include="Question.cpp" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Administrator.h" />
     <ClInclude Include="CustomerAgent.h" />
-    <ClInclude Include="Feedback.h" />
     <ClInclude Include="Manager.h" />
+<<<<<<< Updated upstream
     <ClInclude Include="Member.h" />
-    <ClInclude Include="Offer.h" />
-    <ClInclude Include="Proposal.h" />
-    <ClInclude Include="User.h" />
+    <ClInclude Include="Offers.h" />
+=======
+    <ClInclude Include="Package.h" />
+    <ClInclude Include="Question.h" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

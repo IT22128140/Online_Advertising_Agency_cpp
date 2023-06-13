@@ -21,25 +21,23 @@
     <ClCompile Include="Administrator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CustomerAgent.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< Updated upstream
     <ClCompile Include="Member.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Offer.cpp">
+    <ClCompile Include="Offers.cpp">
+=======
+    <ClCompile Include="CustomerAgent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="User.cpp">
+    <ClCompile Include="Question.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Feedback.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Proposal.cpp">
+    <ClCompile Include="Package.cpp">
+>>>>>>> Stashed changes
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,25 +45,23 @@
     <ClInclude Include="Administrator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CustomerAgent.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
     <ClInclude Include="Member.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Offer.h">
+    <ClInclude Include="Offers.h">
+=======
+    <ClInclude Include="CustomerAgent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="User.h">
+    <ClInclude Include="Question.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Feedback.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Proposal.h">
+    <ClInclude Include="Package.h">
+>>>>>>> Stashed changes
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
