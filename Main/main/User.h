@@ -6,14 +6,14 @@ class User
 {
 protected:
 	string Name;
-	string Email;
 	string ContactNumber;
+	string Email;
 	string Username;
 	string Password;
 
 public:
 	User();
-	User(string Name, string Email, string ContactNumber, string Username, string Password);
+	User(string Name, string ContactNumber, string Email, string Username, string Password);
 	void createAccount();
 	void addPersonalDetails();
 	void acceptTerms_Conditions();
