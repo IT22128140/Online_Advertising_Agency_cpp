@@ -22,8 +22,5 @@ public:
 	void checkoffers();
 	void payadvertiesment();
 	~Member();
-
-
-
 };
 
