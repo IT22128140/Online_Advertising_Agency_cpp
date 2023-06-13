@@ -6,6 +6,7 @@
 #include "Report.h"
 #include "Feedback.h"
 #include "Order.h"
+#include "Creative_director.h"
 
 using namespace std;
 
@@ -52,6 +53,10 @@ int main()
 	cout << endl << endl;
 
 
+	// data insert to Order
+	Order* odr = new Order("Od003", "12/10/2021", 20000, 220000);
+
+
 	// data insert to Creative_director
-	Order* odr = new Order("Od003","2021-10-12",20000,220000)
+	Creative_director* CDirector = new CDirector ()
 }
