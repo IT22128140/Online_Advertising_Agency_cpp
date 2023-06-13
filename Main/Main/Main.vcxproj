@@ -134,6 +134,7 @@
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="Offer.cpp" />
+    <ClCompile Include="Proposal.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -143,6 +144,7 @@
     <ClInclude Include="Manager.h" />
     <ClInclude Include="Member.h" />
     <ClInclude Include="Offer.h" />
+    <ClInclude Include="Proposal.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
