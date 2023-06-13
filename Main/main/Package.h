@@ -18,5 +18,5 @@ public:
 	void takePayment(string Payment_ID);
 	~Package();
 };
-};
+
 

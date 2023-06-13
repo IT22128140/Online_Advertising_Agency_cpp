@@ -5,6 +5,7 @@
 #include "Offer.h"
 #include "Report.h"
 #include "Feedback.h"
+#include "Order.h"
 
 using namespace std;
 
@@ -30,7 +31,7 @@ int main()
 
 		Administrator * admin = new Administrator("AD255");
 	cout << "Details of Admin" << endl;
-	admin->
+	
 
 
 
@@ -45,13 +46,12 @@ int main()
 
 
 	//data insert to feedback
-	Member * feed;
-	feed = new Member;
-	feed -> addFeed("F0001", "safadfakdhfuaef adfjkad ffkajdlfaieufajdlfaei adfjlajfaiej alkdjfl adhfaehf aljkdfa",5);
-	
+	Feedback* feed = new Feedback ("F0001", "Best service",5);
+	cout << "Details of Feedback : " << endl;
 	feed -> showFeed(); //display feed details
 	cout << endl << endl;
 
 
-	
+	// data insert to Creative_director
+	Order* odr = new Order( )
 }
