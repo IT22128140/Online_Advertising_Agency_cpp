@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -136,8 +136,10 @@
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="Offer.cpp" />
     <ClCompile Include="Order.cpp" />
+    <ClCompile Include="Package.cpp" />
     <ClCompile Include="Payment.cpp" />
     <ClCompile Include="Proposal.cpp" />
+    <ClCompile Include="Question.cpp" />
     <ClCompile Include="Report.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
@@ -150,8 +152,10 @@
     <ClInclude Include="Member.h" />
     <ClInclude Include="Offer.h" />
     <ClInclude Include="Order.h" />
+    <ClInclude Include="Package.h" />
     <ClInclude Include="Payment.h" />
     <ClInclude Include="Proposal.h" />
+    <ClInclude Include="Question.h" />
     <ClInclude Include="Report.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
