@@ -2,7 +2,7 @@
 #include<string>
 #include "User.h"
 #include "CreativeDirector.h"
-#include "Admin.h"
+#include "Administrator.h"
 #include "CustomerAgent.h"
 #include "Report.h"
 using namespace std;
@@ -23,5 +23,3 @@ public:
 	~Manager();
 
 };
-
-

@@ -135,7 +135,12 @@
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="Member.cpp" />
     <ClCompile Include="Offer.cpp" />
+<<<<<<< Updated upstream
     <ClCompile Include="Order.cpp" />
+=======
+    <ClCompile Include="Payment.cpp" />
+    <ClCompile Include="Report.cpp" />
+>>>>>>> Stashed changes
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -146,7 +151,12 @@
     <ClInclude Include="Manager.h" />
     <ClInclude Include="Member.h" />
     <ClInclude Include="Offer.h" />
+<<<<<<< Updated upstream
     <ClInclude Include="Order.h" />
+=======
+    <ClInclude Include="Payment.h" />
+    <ClInclude Include="Report.h" />
+>>>>>>> Stashed changes
     <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
