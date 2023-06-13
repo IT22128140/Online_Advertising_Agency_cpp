@@ -1,6 +1,8 @@
 #pragma once
 #include<string>
+#include"Member.h"
 #include"User.h"
+
 using namespace std;
 
 class Creative_director : public User

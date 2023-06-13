@@ -4,6 +4,7 @@
 #include "Administrator.h"
 #include "Offer.h"
 #include "Report.h"
+#include "Feedback.h"
 
 using namespace std;
 
@@ -30,4 +31,27 @@ int main()
 		Administrator * admin = new Administrator("AD255");
 	cout << "Details of Admin" << endl;
 	admin->
+
+
+
+
+
+
+
+
+
+
+
+
+
+	//data insert to feedback
+	Member * feed;
+	feed = new Member;
+	feed -> addFeed("F0001", "safadfakdhfuaef adfjkad ffkajdlfaieufajdlfaei adfjlajfaiej alkdjfl adhfaehf aljkdfa",5);
+	
+	feed -> showFeed(); //display feed details
+	cout << endl << endl;
+
+
+	
 }
