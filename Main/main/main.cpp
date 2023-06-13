@@ -53,5 +53,5 @@ int main()
 
 
 	// data insert to Creative_director
-	Order* odr = new Order( )
+	Order* odr = new Order("Od003","2021-10-12",20000,220000)
 }
