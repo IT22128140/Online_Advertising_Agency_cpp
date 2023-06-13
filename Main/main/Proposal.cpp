@@ -11,9 +11,9 @@ Proposal::Proposal()
 }
 Proposal::Proposal(string Pro_id, string member_id, string requrement)
 {
-	this->Proposal_id = Pro_id;
-	this->Member_id = member_id;
-	this->requirement = requrement;
+	Proposal_id = Pro_id;
+	Member_id = member_id;
+	requirement = requrement;
 }
 void Proposal::displayProposal()
 {
