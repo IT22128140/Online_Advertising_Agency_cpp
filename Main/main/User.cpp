@@ -12,16 +12,16 @@ User::User()
     Password = "";
 }
 
-User::User(string Name, string Email, string ContactNumber, string Username, string Password)
+User::User(string uName, string uContact, string uEmail, string username, string pass)
 {
-    this->Name = Name;
-    this->ContactNumber = ContactNumber;
-    this->Email = Email;
-    this->Username = Username;
-    this->Password = Password;
+    this->Name = uName;
+    this->ContactNumber = uContact;
+    this->Email = uEmail;
+    this->Username = username;
+    this->Password = pass;
 }
 
-void User::createAccount()
+void User::displayUser()
 {
     cout << "Name: " << Name << endl;
     cout << "Contact Number: " << ContactNumber << endl;
@@ -29,6 +29,10 @@ void User::createAccount()
     cout << "Creating an account for user: " << Name << endl;
     cout << "Username: " << Username << endl;
     cout << "Password: " << Password << endl;
+}
+void User::createAccount()
+{
+    
 }
 
 void User::addPersonalDetails()
@@ -42,37 +46,12 @@ void User::acceptTerms_Conditions()
 
 void User::login()
 {
-    string enteredUsername, enteredPassword;
-
-    cout << "Enter username: ";
-    cin >> enteredUsername;
-
-    cout << "Enter password: ";
-    cin >> enteredPassword;
-
-    if (enteredUsername == Username && enteredPassword == Password)
-    {
-        cout << "Login successful!" << endl;
-    }
-    else
-    {
-        cout << "Invalid username or password. Login failed!" << endl;
-        return;
-
-    }
+    
 }
 
 void User::UpdateDetails()
 {
-    cout << "Updating details for user: " << Name << endl;
-    cout << "Enter new email: ";
-    cin >> Email;
-
-    cout << "Enter new contact number: ";
-    cin >> ContactNumber;
-
-    cout << "Details updated successfully!" << endl;
-
+    
 }
 
 User::~User()

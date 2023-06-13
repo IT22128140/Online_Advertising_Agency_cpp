@@ -13,7 +13,8 @@ protected:
 
 public:
 	User();
-	User(string Name, string ContactNumber, string Email, string Username, string Password);
+	User(string uName, string uContact, string uEmail, string username, string pass);
+	void displayUser();
 	void createAccount();
 	void addPersonalDetails();
 	void acceptTerms_Conditions();
