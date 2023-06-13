@@ -1,5 +1,7 @@
 #pragma once
 #include<string>
+#include "Payment.h"
+#include "Proposal.h"
 using namespace std;
 
 class order

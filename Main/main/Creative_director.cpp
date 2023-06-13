@@ -17,6 +17,7 @@ Creative_director::Creative_director(string CD_ID)
 
 void Creative_director::display()
 {
+	User::displayUser();
 	cout << CDirector_ID << endl;
 }
 

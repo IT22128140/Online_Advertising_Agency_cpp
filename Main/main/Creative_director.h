@@ -1,8 +1,9 @@
 #pragma once
 #include<string>
+#include"User.h"
 using namespace std;
 
-class Creative_director
+class Creative_director : public User
 {
 private:
 	string CDirector_ID;
