@@ -1,8 +1,10 @@
 #pragma once
 #include <string>
+#include "User.h"
+
 using namespace std;
 
-class Member
+class Member : public User
 {
 private:
 	string Member_ID;
