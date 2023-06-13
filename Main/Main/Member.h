@@ -20,6 +20,7 @@ public:
 	void visitfaq();
 	void useqa();
 	void checkoffers();
+
 	void payadvertiesment();
 	~Member();
 };
