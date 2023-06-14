@@ -12,7 +12,7 @@ private:
 	string Payment_Method;
 	double Amount; //without discount
 	double NetAmount; //with discount
-	Package* Pkg; //an object of Package as attribute
+	Package *Pkg; //an object of Package as attribute
 
 public:
 	Payment();

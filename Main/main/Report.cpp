@@ -1,4 +1,5 @@
 #include "Report.h"
+#include "Order.h"
 #include<iostream>
 #include<string>
 using namespace std;
@@ -10,7 +11,7 @@ Report::Report()
 	Report_Date = "";
 }
 
-Report::Report(string R_reportID, string R_reportTyp, string R_reportDate, order* ordd)
+Report::Report(string R_reportID, string R_reportTyp, string R_reportDate, Order* ordd)
 {
 	Report_ID = R_reportID;
 	Report_Type = R_reportTyp;

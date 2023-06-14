@@ -1,0 +1,156 @@
+﻿  Creative_director.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,14): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,15): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(18,56): error C2061: syntax error: identifier 'Package'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Creative_director.cpp(13,58): error C2665: 'User::User': no overloaded function could convert all the argument types
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\User.h(24,1): message : could be 'User::User(const User &)'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Creative_director.cpp(13,58): message : 'User::User(const User &)': cannot convert argument 1 from 'std::string' to 'const User &'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Creative_director.cpp(13,59): message : Reason: cannot convert from 'std::string' to 'const User'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Creative_director.cpp(13,59): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Creative_director.cpp(13,58): message : while trying to match the argument list '(std::string)'
+  CustomerAgent.cpp
+  Feedback.cpp
+  main.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,14): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,15): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(18,56): error C2061: syntax error: identifier 'Package'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\main.cpp(53,10): error C2374: 'rep': redefinition; multiple initialization
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\main.cpp(41,10): message : see declaration of 'rep'
+  Manager.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,14): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,15): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(18,56): error C2061: syntax error: identifier 'Package'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+  Member.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,14): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,15): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(18,56): error C2061: syntax error: identifier 'Package'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+  Offer.cpp
+  Order.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,16): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(22,8): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(22,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(22,12): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(32,19): error C2061: syntax error: identifier 'Proposal'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(34,16): error C2061: syntax error: identifier 'Order'
+  Package.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,16): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(22,8): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(22,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(22,12): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(32,19): error C2061: syntax error: identifier 'Proposal'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(34,16): error C2061: syntax error: identifier 'Order'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,14): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,15): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(18,56): error C2061: syntax error: identifier 'Package'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Payment.h(15,9): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Payment.h(15,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Payment.h(15,14): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Payment.h(19,48): error C2061: syntax error: identifier 'Package'
+  Payment.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,16): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(22,8): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(22,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(22,12): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(32,19): error C2061: syntax error: identifier 'Proposal'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(34,16): error C2061: syntax error: identifier 'Order'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,14): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,15): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(18,56): error C2061: syntax error: identifier 'Package'
+  Proposal.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,14): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,15): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(18,56): error C2061: syntax error: identifier 'Package'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,11): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,11): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(20,16): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Member.h(32,19): error C2061: syntax error: identifier 'Proposal'
+  Question.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+  Report.cpp
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(12,14): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(13,15): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Order.h(18,56): error C2061: syntax error: identifier 'Package'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(10,19): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.h(17,23): error C2061: syntax error: identifier 'Question'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Manager.h(13,8): error C2143: syntax error: missing ';' before '*'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Manager.h(13,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Manager.h(13,13): error C2238: unexpected token(s) preceding ';'
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\Manager.h(17,123): error C2061: syntax error: identifier 'Report'
+  User.cpp
+  Generating Code...
+C:\Users\Maneth Mindiya\Desktop\Studies\Repositories\onlineadvertising\Main\main\CustomerAgent.cpp(30): error C4716: 'CustomerAgent::answerQuestions': must return a value

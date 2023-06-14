@@ -15,7 +15,7 @@ int main()
 	//data inset into Order
 	Order* ord = new Order();
 	cout << "Details of Order : " << endl;
-	ord->DisplayOrder();
+	ord->DisplayOrder(); //display details of the order
 	cout << endl << endl;
 
 	//data insert into offer
@@ -35,6 +35,7 @@ int main()
 	cout << "Details of Payement : " << endl;
 	paymnt->calcNetAmount(100000, off); //calculate the net amount to be paid using offers
 	paymnt->displayPayment();
+	cout << endl << endl;
 
 	//data insert into Report
 	Report* rep = new Report("RP001", "Report about month of April sales", "30/04/2023", ord);
@@ -49,7 +50,7 @@ int main()
 	cout << endl << endl;
 
 	//data insert into report
-	Report* rep = new Report("RP001", "Report about month of April sales", "30/04/2023");
+	Report* rep = new Report("RP001", "Report about month of April sales", "30/04/2023",ord);
 	cout << "Details of Report : " << endl;
 	rep->displayReport(); //display details of the report
 	cout << endl << endl;
@@ -58,16 +59,12 @@ int main()
 	Member* mem = new Member("0001", "ABC", "Colombo", "Manager", "12/10/1998");
 	cout << "Details of Member : " << endl;
 	mem->displaymember(); //display the details of the member
-	mem->addfeedback(); //add feedback
-	mem->addProposal("1", "1", "need great"); //add proposal
-	mem->addOrder(); //add order
 	cout << endl << endl;
 
 	//data insert to Proposal
-	Member* prop;
-	prop = new Member;
-	prop->buyProposal("P001", "0001", "need great");
-	prop->displayProposal();
+	Proposal* prop = new Proposal("P001", "0001", "need great");
+	cout << "Details of Proposal : " << endl;
+	prop->displayProposal();//display the details of the proposal
 	cout << endl;
 
 	//data insert to feedback
@@ -79,7 +76,7 @@ int main()
 	// data insert to Creative_director
 	Creative_director* CDirect = new Creative_director("CD001");
 	cout << "Detail of creative director: " << endl;
-	CDirect->display();
+	CDirect->display(); //display details of the creative director
 	cout << endl << endl;
 
 }

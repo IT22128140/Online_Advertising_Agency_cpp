@@ -32,5 +32,4 @@ void Question::addToQandA()
 
 Question::~Question()
 {
-	cout << "Delete Question : " << QA_ID << " : " << qa  << endl;
 }
