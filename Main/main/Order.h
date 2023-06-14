@@ -13,6 +13,7 @@ private:
 public:
 	order();
 	order(string O_id, string O_date);
+	void addOdrder();
 	void ProcessToPay();
 	void DisplayOrder();
 	void AccessToPdetails();

@@ -16,6 +16,10 @@ order::order(string O_id, string O_date)
 	Order_date = O_date;
 }
 
+void order::addOdrder()
+{
+}
+
 void order::ProcessToPay()
 {
 }
