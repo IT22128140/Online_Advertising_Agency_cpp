@@ -22,6 +22,15 @@ void Feedback::showFeed()
 {
 	cout << description << rate << endl;
 }
+void Feedback::addFeed()
+{
+	cout << "Enter Feedback ID: ";
+	cin >> Feedb_id;
+	cout << "Enter Feedback Description: ";
+	cin >> description;
+	cout << "Enter Feedback Rate: ";
+	cin >> rate;
+}
 
 Feedback::~Feedback()
 {

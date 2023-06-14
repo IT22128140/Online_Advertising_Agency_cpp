@@ -12,5 +12,7 @@ public:
 	Feedback();
 	Feedback(string f_id, string f_des, int frate);
 	void showFeed();
+	void addFeed();
 	~Feedback();
 };
+

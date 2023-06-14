@@ -7,26 +7,28 @@ Payment::Payment()
 {
 	Payment_ID = "";
 	Payment_Method = "";
+	Amount = 0.0;
 	NetAmount = 0.0;
 }
 
-Payment::Payment(string P_Paymentid, string P_paymeth, double P_netAmount)
+Payment::Payment(string P_Paymentid, string P_paymeth)
 {
 	Payment_ID = P_Paymentid;
 	Payment_Method = P_paymeth;
-	NetAmount = P_netAmount;
+	Amount = 0.0;
+	NetAmount = 0.0;
 }
 
-double Payment::calcNetAmount(double P_Amount, Offer* D)
+void Payment::calcNetAmount(double P_Amount, Offer* D)
 {
-	NetAmount = P_Amount - D->getDiscount();
-	return NetAmount;
+	NetAmount = P_Amount - (P_Amount * D->getoffers());
 }
 
 void Payment::displayPayment()
 {
 	cout << "Payment ID : " << Payment_ID << endl;
 	cout << "Payment Method : " << Payment_Method << endl;
+	cout << "Net Amount : " << NetAmount << endl;
 
 }
 

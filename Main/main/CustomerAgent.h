@@ -2,18 +2,19 @@
 #include <string>
 #include "User.h"
 #include "Question.h"
-#include "Member.h"
+using namespace std;
 
 class CustomerAgent : public User
 {
 private:
+    Question* Ques;
     string CustomerAgent_ID;
 
 public:
     CustomerAgent();
-    CustomerAgent(string CA_id, string CA_name, string CA_email, string CA_contactNumber, string CA_username, string CA_password);
+    CustomerAgent(string CA_id);
     void displayCustomerAgentDetails();
-    void takeQuestions(string Question_ID, string question);
+    void setQuestions(Question* Question);
     string answerQuestions();
     void updateUserprofile();
     ~CustomerAgent();

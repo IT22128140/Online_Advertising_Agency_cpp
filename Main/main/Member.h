@@ -1,6 +1,11 @@
 #pragma once
 #include <string>
+#include <iostream>
 #include "User.h"
+#include "Proposal.h"
+#include "Feedback.h"
+#include "Order.h"
+#include "Question.h"
 
 using namespace std;
 
@@ -12,15 +17,23 @@ private:
 	string address;
 	string designation;
 	string DOB;
+	Proposal *prop;
+	Question *ques;
+	Order *ord;
+	Feedback *feed;
+
 public:
 	Member();
-	Member(string mMember_ID, string mcompany, string maddress, string mdesignation, string mDOB);
+	Member(string mMeber_ID, string mcompany, string maddress, string mdesignation, string mDOB);
 	void displaymember();
-	void requestproposal();
 	void visitfaq();
 	void useqa();
 	void checkoffers();
-	void payadvertiesment();
+	void addProposal(Proposal *prop1);
+	void displayProposal();
+	void addOrder(Order *ord1);
+	void addfeedback();
+	void addQuestion(Question *Ques);
 	~Member();
 };
 

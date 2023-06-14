@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
 #include "Payment.h"
+using namespace std;
 
 class Package
 {
@@ -18,5 +19,3 @@ public:
 	void takePayment(string Payment_ID);
 	~Package();
 };
-
-

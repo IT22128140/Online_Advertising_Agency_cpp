@@ -1,5 +1,9 @@
 #include "Member.h"
 #include <iostream>
+#include <array>
+#include "Feedback.h"
+#include "Proposal.h"
+#include "Order.h"
 
 using namespace std;
 
@@ -30,29 +34,40 @@ void Member::displaymember()
 	cout << "Date of Birth: " << DOB << endl;
 }
 
-void Member::requestproposal()
-{
-
-}
 
 void Member::visitfaq()
 {
-
 }
 
 void Member::useqa()
 {
-
 }
 
 void Member::checkoffers()
 {
+}
+
+void Member::addProposal(Proposal *prop1)
+{
+	prop1->addProposal();
+}
+
+void Member::displayProposal()
+{
+	prop->displayProposal();
+}
+
+void Member::addOrder(Order *ord1)
+{
 
 }
 
-void Member::payadvertiesment()
+void Member::addfeedback()
 {
-
+}
+void Member::addQuestion(Question* Ques)
+{
+	ques = Ques;
 }
 
 Member::~Member()

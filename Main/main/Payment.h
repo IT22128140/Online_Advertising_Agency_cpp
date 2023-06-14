@@ -9,12 +9,13 @@ class Payment
 private:
 	string Payment_ID;
 	string Payment_Method;
-	double NetAmount;
+	double Amount; //without discount
+	double NetAmount; //with discount
 
 public:
 	Payment();
-	Payment(string P_Paymentid, string P_paymeth, double P_netAmount);
-	double calcNetAmount(double P_Amount, Offer* D);
+	Payment(string P_Paymentid, string P_paymeth);
+	void calcNetAmount(double P_Amount, Offer* D);
 	void displayPayment();
 	void validatePay();
 	void paymentHistory();

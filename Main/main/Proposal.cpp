@@ -21,6 +21,10 @@ void Proposal::displayProposal()
 	cout << "Member_id:" << Member_id << endl;
 	cout << "requirment:" << requirement << endl;
 }
+void Proposal::addProposal()
+{
+
+}
 void Proposal::validateMembership()
 {
 

@@ -24,11 +24,6 @@ void Manager::manageCreativeDirector()
 
 }
 
-void Manager::manageAdmin()
-{
-
-}
-
 void Manager::manageCustomerAgent()
 {
 

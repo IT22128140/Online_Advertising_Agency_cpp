@@ -10,7 +10,7 @@ Creative_director::Creative_director()
 	CDirector_ID = "0";
 }
 
-Creative_director::Creative_director(string CD_ID) : User (CD_ID)
+Creative_director::Creative_director(string CD_ID) : User(CD_ID)
 {
 	CDirector_ID = CD_ID;
 }

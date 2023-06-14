@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Administrator.cpp" />
     <ClCompile Include="Creative_director.cpp" />
     <ClCompile Include="CustomerAgent.cpp" />
     <ClCompile Include="Feedback.cpp" />
@@ -144,7 +143,6 @@
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Administrator.h" />
     <ClInclude Include="Creative_director.h" />
     <ClInclude Include="CustomerAgent.h" />
     <ClInclude Include="Feedback.h" />

@@ -15,6 +15,7 @@ public:
 	Proposal();
 	Proposal(string Pro_id, string member_id, string requirement);
 	void displayProposal();
+	void addProposal();
 	void validateMembership();
 	void AskRequirement();
 	void createProposal();
