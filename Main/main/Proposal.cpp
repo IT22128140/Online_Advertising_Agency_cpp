@@ -23,7 +23,12 @@ void Proposal::displayProposal()
 }
 void Proposal::addProposal()
 {
-
+	cout << "Proposal_id:";
+	cin >> Proposal_id;
+	cout << "Member_id:";
+	cin >> Member_id;
+	cout << "requirment:";
+	cin >> requirement;
 }
 void Proposal::validateMembership()
 {

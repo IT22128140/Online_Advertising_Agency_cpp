@@ -11,18 +11,15 @@ private:
 	string Order_date;
 
 public:
-<<<<<<< Updated upstream
-	order();
-	order(string O_id, string O_date);
-	void addOdrder();
-=======
 	Order();
 	Order(string O_id, string O_date);
 	void addOrder();
->>>>>>> Stashed changes
 	void ProcessToPay();
 	void DisplayOrder();
 	void AccessToPdetails();
 	~Order();
 
 };
+
+
+

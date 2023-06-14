@@ -1,6 +1,6 @@
 #include<iostream>
 #include<string>
-#include"order.h"
+#include"Order.h"
 using namespace std;
 
 Order::Order()
@@ -15,16 +15,8 @@ Order::Order(string O_id, string O_date)
 	Order_id = O_id;
 	Order_date = O_date;
 }
-<<<<<<< Updated upstream
 
-void order::addOdrder()
-{
-}
-
-void order::ProcessToPay()
-=======
 void Order::addOrder()
->>>>>>> Stashed changes
 {
 }
 
