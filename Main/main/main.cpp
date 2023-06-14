@@ -5,6 +5,7 @@
 #include "Offer.h"
 #include "Report.h"
 #include "Feedback.h"
+#include "Proposal.h"
 #include "Order.h"
 #include "Creative_director.h"
 
@@ -44,6 +45,13 @@ int main()
 
 
 
+	//data insert to Proposal
+	Member* prop;
+	prop = new Member;
+	prop->buyProposal("P001", "0001", "need great");
+	prop->displayProposal;
+	cout << endl;
+
 
 
 	//data insert to feedback
@@ -58,9 +66,13 @@ int main()
 
 
 	// data insert to Creative_director
+<<<<<<< HEAD
 	Creative_director* CDirect = new Creative_director("CD001");
 	cout << "Detail of creative director: " << endl;
 	CDirect->display();
 	cout << endl << endl;
+=======
+	Creative_director* CDirector = new CDirector ()
+>>>>>>> 56922cf0cba494fc7f015c9905c9c82597a03fbe
 
 }
