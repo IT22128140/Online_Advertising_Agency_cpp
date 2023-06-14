@@ -62,17 +62,16 @@ int main()
 
 
 	// data insert to Order
-	Order* odr = new Order("Od003", "12/10/2021", 20000, 220000);
-
+	Order* odr = new Order("Od003", "12/10/2021");
+	cout << "Details of Order: " << endl;
+	odr -> DisplayOrder();
+	cout << endl << endl;
 
 	// data insert to Creative_director
-<<<<<<< HEAD
+
 	Creative_director* CDirect = new Creative_director("CD001");
 	cout << "Detail of creative director: " << endl;
 	CDirect->display();
 	cout << endl << endl;
-=======
-	Creative_director* CDirector = new CDirector ()
->>>>>>> 56922cf0cba494fc7f015c9905c9c82597a03fbe
 
 }
