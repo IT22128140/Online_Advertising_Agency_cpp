@@ -49,7 +49,7 @@ int main()
 	Member* prop;
 	prop = new Member;
 	prop->buyProposal("P001", "0001", "need great");
-	prop->displayProposal;
+	prop->displayProposal();
 	cout << endl;
 
 
